@@ -1,0 +1,65 @@
+/* Over all color */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+/* color the page */
+.container{
+    width: 100%;
+    height: 100vh;
+    background: rgb(6, 28, 47);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* COlor the Calculator part */
+.calculator{
+    background-color: #3a4452;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+/* Style for input part */
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1),8px 8px 15px rgba(0, 0, 0,0.2);
+    background: transparent;
+    font-size: 20PX;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+/* Display the part in flex */
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+/* Display the part in flax right */
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+/* color the operator */
+form input.oparator{
+    color: #33ffd8;
+}
+
+/* color the operator */
+form input.oparator1{
+    color: rgb(139, 251, 11);
+}
